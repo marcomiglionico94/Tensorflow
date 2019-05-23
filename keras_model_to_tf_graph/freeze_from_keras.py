@@ -1,12 +1,7 @@
 from wide_resnet import WideResNet
 import os, argparse
 import tensorflow as tf
-import numpy as np
-import cv2
-from pyagender import PyAgender
-from tensorflow.python.platform import gfile
-import utils_func
- 
+
  # Directory to Save the model
 os.makedirs('./model', exist_ok=True)
 
