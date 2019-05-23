@@ -11,7 +11,7 @@
 
 The output node names arguments are printed when you run point 1.
 
-If you are using a NCS2 and you want to convert the graph generated into an IR (xml and bin files) optimized model use the following command(mo_tf.py is a file that is installed with OPENVINO toolkit:
+If you are using a NCS2 and you want to convert the graph generated into an IR (xml and bin files) optimized model use the following command(mo_tf.py is a file that is installed with OPENVINO toolkit):
 
 $ sudo python3 mo_tf.py \
 4
