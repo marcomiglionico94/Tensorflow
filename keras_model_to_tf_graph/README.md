@@ -23,6 +23,6 @@ $ sudo python3 mo_tf.py \
 7
 	--output zzz \
 8
-	--data_type FP32 \
+	--data_type FP16 \
 9
 	--batch 1
