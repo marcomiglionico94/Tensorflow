@@ -5,8 +5,8 @@
 
     python3 freeze_graph.py --input_meta_graph=./model/model_name.ckpt.meta  
      --input_checkpoint=./model/model_name.ckpt 
-     --output_graph=./model/frozen_graph.pb \
-     --output_node_names="pred_gender/Softmax, pred_age/Softmax" \  
+     --output_graph=./model/frozen_graph.pb 
+     --output_node_names="pred_gender/Softmax, pred_age/Softmax"   
      --input_binary=True
 
 The output node names arguments are printed when you run point 1.
